@@ -219,6 +219,10 @@ attacks=10
      textSize(20); 
        text('You now have increased attack power',145,115)
        text('Now go fight that rouge!',200,135)
+  if(bullet.pos.x >= 400){
+   bullet.pos.x = 220
+   badguyhealth=60
+   } 
     }       
   
 }
