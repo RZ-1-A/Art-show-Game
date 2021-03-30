@@ -212,7 +212,7 @@ text('I sense you require assistance travaler.',145,115)
 text('I will help you.',250,135)
 }
     if (mouseIsPressed && man.pos.x < 295 && man.pos.x > 150 && man.pos.y > 140 && man.pos.y < 250){
-    man.pos.x = 159  
+    man.pos.x = 157  
 attacks=10
       fill(0,0,0)
       noStroke();
