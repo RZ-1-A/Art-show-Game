@@ -8,6 +8,7 @@ class Bullet {
     this.acc = createVector(0, 0);
     this.pic = img2;
   }
+    img8 = loadImage('badstrike.png');
 
 
   update() {
